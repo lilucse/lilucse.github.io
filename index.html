@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Lu Li</title>
+
+    <meta name="author" content="Lu Li">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+
+          <!-- ============================================================ -->
+          <!-- HEADER: name, bio, links, and profile photo                  -->
+          <!-- ============================================================ -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Lu Li
+                </p>
+                <p>
+                  I'm a second-year PhD student at
+                  <a href="https://mila.quebec/en">Mila &ndash; Quebec AI Institute</a>
+                  and <a href="https://www.umontreal.ca/en/">Universit&eacute; de Montr&eacute;al</a>,
+                  advised by <a href="https://pierrelucbacon.com/">Pierre-Luc Bacon</a>.
+                  My research centers on reinforcement learning and deep learning.
+                  Before Mila, I earned an M.S. in Electronic and Information Engineering from
+                  <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>,
+                  and a B.S. in Computer Science from
+                  <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:lu.li@mila.quebec">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=QPsrZx8AAAAJ&amp;hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://x.com/luli_airl">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/lu-li-738962237/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/lilucse">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ============================================================ -->
+          <!-- RESEARCH intro                                               -->
+          <!-- ============================================================ -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  Describe your research interests in a sentence or two. Some
+                  papers are <span class="highlight">highlighted</span>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ============================================================ -->
+          <!-- PUBLICATIONS                                                 -->
+          <!-- Copy one <tr>...</tr> block per paper. Two example patterns  -->
+          <!-- are shown below; a video-hover pattern is in a comment.      -->
+          <!-- ============================================================ -->
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+<!-- EXAMPLE 1: image "before/after" hover. Wrap in bgcolor="#ffffd0" to highlight.
+     Give this paper a unique id prefix (here: "paper1") everywhere below. -->
+<tr onmouseout="paper1_stop()" onmouseover="paper1_start()" bgcolor="#ffffd0">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='paper1_image'>
+        <img src='images/paper1_after.jpg' width=100%>
+      </div>
+      <img src='images/paper1_before.jpg' width=100%>
+    </div>
+    <script type="text/javascript">
+      function paper1_start() {
+        document.getElementById('paper1_image').style.opacity = "1";
+      }
+      function paper1_stop() {
+        document.getElementById('paper1_image').style.opacity = "0";
+      }
+      paper1_stop()
+    </script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+    <a href="#">
+      <span class="papertitle">Title of Your Highlighted Paper</span>
+    </a>
+    <br>
+    <strong>Your Name</strong>,
+    <a href="#">Coauthor One</a>,
+    <a href="#">Coauthor Two</a>
+    <br>
+    <em>Conference or Journal</em>, 2026
+    <br>
+    <a href="#">project page</a> /
+    <a href="#">arXiv</a> /
+    <a href="#">code</a>
+    <p></p>
+    <p>
+      One or two sentences summarizing the paper. The thumbnail cross-fades
+      from paper1_before.jpg to paper1_after.jpg when you hover over the row.
+    </p>
+  </td>
+</tr>
+
+<!-- EXAMPLE 2: plain static thumbnail (no hover), no highlight. -->
+<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <img src='images/paper2.jpg' width=100%>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+    <a href="#">
+      <span class="papertitle">Title of Another Paper</span>
+    </a>
+    <br>
+    <a href="#">Coauthor One</a>,
+    <strong>Your Name</strong>,
+    <a href="#">Coauthor Two</a>
+    <br>
+    <em>Conference or Journal</em>, 2025
+    <br>
+    <a href="#">arXiv</a> /
+    <a href="#">bibtex</a>
+    <p></p>
+    <p>
+      One or two sentences summarizing the paper.
+    </p>
+  </td>
+</tr>
+
+<!-- EXAMPLE 3 (VIDEO HOVER): uncomment and add images/paper3.jpg + images/paper3.mp4.
+     Shows a static image, then plays the muted looping video on hover.
+<tr onmouseout="paper3_stop()" onmouseover="paper3_start()">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='paper3_image'><video width=100% height=100% muted autoplay loop>
+        <source src="images/paper3.mp4" type="video/mp4">
+      </video></div>
+      <img src='images/paper3.jpg' width="160">
+    </div>
+    <script type="text/javascript">
+      function paper3_start() { document.getElementById('paper3_image').style.opacity = "1"; }
+      function paper3_stop()  { document.getElementById('paper3_image').style.opacity = "0"; }
+      paper3_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="#"><span class="papertitle">Paper With a Video Thumbnail</span></a>
+    <br>
+    <strong>Your Name</strong>, <a href="#">Coauthor</a>
+    <br>
+    <em>Conference</em>, 2026
+    <br>
+    <a href="#">project page</a> / <a href="#">arXiv</a>
+    <p></p>
+    <p>Summary sentence.</p>
+  </td>
+</tr>
+-->
+
+          </tbody></table>
+
+          <!-- ============================================================ -->
+          <!-- OTHER SECTIONS (optional): delete any you don't need.        -->
+          <!-- ============================================================ -->
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #c6b89e;">
+                  <h2>Academic Service</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="#">Reviewer, Conference 2026</a>
+                <br>
+                <a href="#">Reviewer, Conference 2025</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color: #edd892;">
+                  <h2>Teaching</h2>
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="#">Teaching Assistant, Course Name, Term Year</a>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          <!-- ============================================================ -->
+          <!-- FOOTER                                                       -->
+          <!-- ============================================================ -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Template based on <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
